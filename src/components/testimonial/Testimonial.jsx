@@ -1,19 +1,17 @@
 import React from 'react'
 import './testimonial.css'
-// import { testimonials } from '../util/utils'
-// import Swiper core and required modules
+import testimonials from '../util/testimonials';
+
+
 import { Pagination } from 'swiper';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
-import data from '../util/data.json'
-
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 
 
 const Testimonial = () => {
-    console.log(data);
+
     return (
         <section id='testimonials'>
             <h5>Review From Clients</h5>
@@ -27,7 +25,7 @@ const Testimonial = () => {
                 pagination={{ clickable: true }}
             >
                 {
-                    data.map(({ avatar, name, review }, index) => {
+                    testimonials.map(({ avatar, name, review }, index) => {
                         return (
                             <SwiperSlide className="testimonial" key={index}>
                                 <div className="client__avatar">
