@@ -1,21 +1,21 @@
 [
     {
-        "avatar": "../../../public/avatar1.jpg",
+        "avatar": "../../assets/avatar1.jpg",
         "name": "Tina Snow",
         "review": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nostrum quas molestias voluptates velit adipisci beatae odio similique voluptatem rem qui iure, mollitia ut odit dolorum ipsam voluptatibus repellat vero. Praesentium ab tempora maiores quis animi beatae voluptatem facere. Quasi."
     },
     {
-        "avatar": "../../../public/avatar2.jpg",
+        "avatar": "../../assets/avatar2.jpg",
         "name": "Shatta Wale",
         "review": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nostrum quas molestias voluptates velit adipisci beatae odio similique voluptatem rem qui iure, mollitia ut odit dolorum ipsam voluptatibus repellat vero. Praesentium ab tempora maiores quis animi beatae voluptatem facere. Quasi."
     },
     {
-        "avatar": "../../../public/avatar3.jpg",
+        "avatar": "../../assets/avatar3.jpg",
         "name": "Kwame Despite",
         "review": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nostrum quas molestias voluptates velit adipisci beatae odio similique voluptatem rem qui iure, mollitia ut odit dolorum ipsam voluptatibus repellat vero. Praesentium ab tempora maiores quis animi beatae voluptatem facere. Quasi."
     },
     {
-        "avatar": "../../../public/avatar4.jpg",
+        "avatar": "../../assets/avatar4.jpg",
         "name": "Nana AmaMcBrown",
         "review": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nostrum quas molestias voluptates velit adipisci beatae odio similique voluptatem rem qui iure, mollitia ut odit dolorum ipsam voluptatibus repellat vero. Praesentium ab tempora maiores quis animi beatae voluptatem facere. Quai."
     }
