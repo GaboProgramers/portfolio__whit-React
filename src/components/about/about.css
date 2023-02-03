@@ -6,7 +6,7 @@
 
 .about__me {
     width: 100%;
-    aspect-ratio: 1/1;
+    aspect-ratio: 1/1.1;
     border-radius: 2rem;
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     display: grid;
@@ -14,14 +14,13 @@
 }
 
 .about__me-image {
+    width: 100%;
+    position: relative;
+    top: -50px;
+    left: -20px;
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10deg);
     transition: transform var(--transition);
-}
-
-.about__me-image:hover {
-    transform: rotate(0);
 }
 
 .about__cards {
@@ -41,12 +40,12 @@
 
 .about__card:hover {
     background: transparent;
-    border-color: var(--color-bg-variant);
+    border-color: var(--color-white);
     cursor: default;
 }
 
 .about__icon {
-    color: var(--color-primary);
+    color: var(--color-icon-dark);
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
@@ -61,8 +60,22 @@
 }
 
 .about__content p {
+    line-height: 1.5;
+    letter-spacing: 1px;
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+}
+
+.about__content p .name-me {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--color-name-me);
+}
+
+.about__content p .especial {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--color-white);
 }
 
 /* =========== MEDIA QUERIES (MEDIUM DIVICES) ============ */

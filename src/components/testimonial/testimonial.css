@@ -9,7 +9,7 @@
     overflow: hidden;
     border-radius: 50%;
     margin: 0 auto 1rem;
-    border: 0.4rem solid var(--color-primary-variant);
+    border: 0.2rem solid var(--color-icon-dark);
 }
 
 .testimonial {
@@ -18,6 +18,11 @@
     padding: 2rem;
     border-radius: 2rem;
     user-select: none;
+}
+
+.client__link {
+    color: var(--color-hover-btn);
+    font-weight: bold;
 }
 
 .client__review {
@@ -29,7 +34,7 @@
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
-    background: var(--color-primary);
+    background: var(--color-icon-dark);
 }
 
 /* =========== MEDIA QUERIES (MEDIUM DIVICES) ============ */

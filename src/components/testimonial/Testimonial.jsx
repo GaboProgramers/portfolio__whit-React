@@ -14,8 +14,8 @@ const Testimonial = () => {
 
     return (
         <section id='testimonials'>
-            <h5>Review From Clients</h5>
-            <h2>Testimonials</h2>
+            <h5>Calificacion de colegas</h5>
+            <h2>Testimonios</h2>
 
             <Swiper className="container testimonial__container"
                 // install Swiper modules
@@ -25,13 +25,14 @@ const Testimonial = () => {
                 pagination={{ clickable: true }}
             >
                 {
-                    testimonials.map(({ avatar, name, review }, index) => {
+                    testimonials.map(({ avatar, name, review, linkeding }, index) => {
                         return (
                             <SwiperSlide className="testimonial" key={index}>
                                 <div className="client__avatar">
                                     <img src={avatar} alt={name} />
                                 </div>
                                 <h5 className='client__name'>{name}</h5>
+                                <a href={linkeding} className='client__link' target="_blank">Linkeding</a>
                                 <small className='client__review'>
                                     {review}
                                 </small>

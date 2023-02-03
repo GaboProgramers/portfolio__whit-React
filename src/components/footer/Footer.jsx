@@ -1,11 +1,14 @@
 import React, { useState } from 'react'
 import './footer.css'
-import { FaFacebookF } from 'react-icons/fa'
-import { FiInstagram } from 'react-icons/fi'
-import { IoLogoTwitter } from 'react-icons/io'
+import { FiLinkedin, FiYoutube, FiGithub } from 'react-icons/fi'
 
 const Footer = () => {
     const [activeNav, setActiveNav] = useState('#')
+
+    // año actual - update
+
+    const fecha = new Date()
+    const year = fecha.getFullYear()
 
     return (
         <footer>
@@ -13,22 +16,21 @@ const Footer = () => {
 
             <ul className='permalinks'>
                 <li><a href="#"></a></li>
-                <li><a href="#about" className={activeNav === '#' ? 'active' : ''}>About</a></li>
-                <li><a href="#experience" className={activeNav === '#' ? 'active' : ''}>Experience</a></li>
-                <li><a href="#services" className={activeNav === '#' ? 'active' : ''}>Services</a></li>
-                <li><a href="#portfolio" className={activeNav === '#' ? 'active' : ''}>Portfolio</a></li>
-                <li><a href="#testimonials" className={activeNav === '#' ? 'active' : ''}>Testimonials</a></li>
-                <li><a href="#contact" className={activeNav === '#' ? 'active' : ''}>Contact</a></li>
+                <li><a href="#about" className={activeNav === '#' ? 'active' : ''}>Sobre Mi</a></li>
+                <li><a href="#experience" className={activeNav === '#' ? 'active' : ''}>Experiencia</a></li>
+                <li><a href="#portfolio" className={activeNav === '#' ? 'active' : ''}>Portafolio</a></li>
+                <li><a href="#testimonials" className={activeNav === '#' ? 'active' : ''}>Testimonios</a></li>
+                <li><a href="#contact" className={activeNav === '#' ? 'active' : ''}>Contacto</a></li>
             </ul>
 
             <div className="footer__socials">
-                <a href="#" target="_blank"><FaFacebookF /></a>
-                <a href="#" target="_blank"><FiInstagram /></a>
-                <a href="#" target="_blank"><IoLogoTwitter /></a>
+                <a href="https://www.linkedin.com/in/gabriel-gutierrez-jrfrontend/" target="_blank"><FiLinkedin /></a>
+                <a href="https://www.youtube.com/channel/UCjKeGXNcXmad9ufJaoBE-XQ" target="_blank"><FiYoutube /></a>
+                <a href="https://github.com/GaboProgramers" target="_blank"><FiGithub /></a>
             </div>
 
             <div className="footer__copyright">
-                <p><small>&copy;</small> <a href="#">GaboProgramer's.</a> All rights reserved</p>
+                <p><small>&copy;</small> <a href="#">GaboProgramer's.</a> All rights reserved <span>{year}</span></p>
             </div>
         </footer>
     )
