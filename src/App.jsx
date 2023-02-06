@@ -24,8 +24,8 @@ function App() {
 
   return (
     <div className={`App ${darkMode ? 'dark-theme' : ''}`}>
-      <div className={`dark__mode ${darkMode ? '' : 'active'}`}>
-        <div className='icon sun-icon' onClick={() => setDarkMode(!darkMode)}>
+      <div className="dark__mode" onClick={() => setDarkMode(!darkMode)}>
+        <div className='icon sun-icon'>
           {
             darkMode ? <BsSunFill /> : <BsMoonStarsFill style={{ color: "var(--color-hover-btn)" }} />
           }

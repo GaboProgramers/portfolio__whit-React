@@ -5,7 +5,7 @@ import data from '../util/utils.js'
 const Portfolio = () => {
     return (
         <section id='portfolio'>
-            <h5>My Recent Work</h5>
+            <h5>Mi trabajo reciente</h5>
             <h2>Portafolio</h2>
 
             <div className="container portfolio__container">

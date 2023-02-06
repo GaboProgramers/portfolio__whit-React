@@ -1,0 +1,34 @@
+[
+    {
+        "name": "HTML",
+        "experience": "Avansada"
+    },
+    {
+        "name": "CSS",
+        "experience": "Avansada"
+    },
+    {
+        "name": "JavaScript",
+        "experience": "Experience"
+    },
+    {
+        "name": "Bootstrap",
+        "experience": "Experience"
+    },
+    {
+        "name": "Tailwind",
+        "experience": "Experience"
+    },
+    {
+        "name": "ReactJS",
+        "experience": "Experience"
+    },
+    {
+        "name": "Git",
+        "experience": "Experience"
+    },
+    {
+        "name": "Github",
+        "experience": "Experience"
+    }
+]

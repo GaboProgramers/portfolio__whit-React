@@ -17,14 +17,26 @@
     transition: border-color var(--transition), background var(--transition);
 }
 
-.portfolio__item:hover {
+/* .portfolio__item:hover {
     border-color: var(--color-primary-variant);
     background: transparent;
-}
+} */
 
 .portfolio__item-image {
+    max-height: 270px;
     border-radius: 1.5rem;
     overflow: hidden;
+    display: block;
+    transition: trasform var(--transition);
+}
+
+.portfolio__item-image img {
+    transform: 0;
+    transition: transform 20s ease;
+}
+
+.portfolio__item-image:hover img {
+    transform: translateY(calc(-100% + 18rem));
 }
 
 .portfolio__item h3 {

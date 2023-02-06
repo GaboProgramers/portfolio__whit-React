@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Node JS",
+        "experience": "Experience"
+    },
+    {
+        "name": "MongoDB",
+        "experience": "Experience"
+    },
+    {
+        "name": "Postman",
+        "experience": "Experience"
+    },
+    {
+        "name": "MySQL",
+        "experience": "Experience"
+    },
+    {
+        "name": "PostgresSQL",
+        "experience": "Experience"
+    },
+    {
+        "name": "Django",
+        "experience": "Experience"
+    }
+]
